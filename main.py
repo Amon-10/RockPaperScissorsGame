@@ -16,13 +16,9 @@ while player not in options or player == computer:
 
 if player == "rock" and computer == "scissors":
     print("You Win!")
-elif player == "rock" and computer == "paper":
-    print("You Lose!")
-elif player == "scissors" and computer == "rock":
-    print("You Lose!")
 elif player == "scissors" and computer == "paper":
     print("You Win!")
 elif player == "paper" and computer == "rock":
     print("You Win!")
-elif player == "paper" and computer == "scissors":
-    print("You Lose!")
+else:
+    print("You Lose")
